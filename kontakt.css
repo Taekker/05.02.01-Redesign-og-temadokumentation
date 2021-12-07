@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+@media (min-width: 500px) {
+  #first_section h1 {
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: 42px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+  }
+
+  #first_section {
+    width: 100%;
+    height: 100vh;
+    background-image: url(slide.jpg);
+    background-size: cover;
+    background-position: 90% 25%;
+  }
+
+  #second_section .section_wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  #second_section .col1 {
+    order: 1;
+  }
+
+  #second_section .col2 {
+    order: 2;
+  }
+
+  #third_section .section_wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  #second_section .col1 {
+    order: 1;
+  }
+
+  #second_section .col2 {
+    order: 2;
+  }
+}
