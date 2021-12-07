@@ -1,4 +1,63 @@
 * {
-  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+h1 {
+  position: absolute;
+  font-size: 500%;
+  color: white;
+  margin-left: 35%; /* skal ændres*/
+  margin-top: 30%; /* skal ændres*/
+}
+
+h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 900px) {
+  #second_section .section_wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .section_wrapper .box1 {
+    flex-basis: 200%;
+  }
+
+  #third_section .box_wide {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin-bottom: -2rem;
+  }
+
+  .box_big {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+  .box_big .box {
+    order: 1;
+    flex-basis: 500%;
+  }
+
+  .box_big .box2 {
+    order: 2;
+  }
 }
