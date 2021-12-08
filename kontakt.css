@@ -8,9 +8,13 @@ img {
   display: block;
 }
 
+p {
+  font-family: "Poppins", sans-serif;
+}
+
 @media (min-width: 900px) {
   #first_section h1 {
-    font-family: "PT Sans Caption", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 42px;
     color: rgb(0, 0, 0);
     text-align: center;
@@ -59,6 +63,25 @@ img {
 
   #third_section .col2 {
     order: 2;
+  }
+
+  #third_section .col1 [type="text"],
+  select {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    border: 1px solid rgb(82, 82, 82);
+    box-sizing: border-box;
+  }
+
+  div {
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+  input {
+    width: 100%;
+    padding: 50px;
   }
 }
 
