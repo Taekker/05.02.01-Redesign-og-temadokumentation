@@ -93,4 +93,11 @@ h2 {
 
 hr {
   color: #7a0625;
+  /* width: 50%; */
+}
+
+@media (max-width: 700px) {
+  hr {
+    width: 50%;
+  }
 }
