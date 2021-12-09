@@ -7,6 +7,8 @@
 img,
 video {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 body {
   /* background-image: url(slide.jpg); */
@@ -14,9 +16,16 @@ body {
   height: 100%;
   background-repeat: no-repeat;
   background-color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.firstSection {
+  display: grid;
+  height: 100vh;
 }
 
 button {
+  place-self: center;
   position: absolute;
   border-radius: 15px;
   background-color: #a60832;
@@ -31,7 +40,7 @@ button {
   transition-duration: 0.4s;
   cursor: pointer;
   top: 60%;
-  left: 43%;
+  /* left: 43%; */
 }
 
 button:hover {
@@ -49,6 +58,7 @@ footer {
   padding-top: 5%;
   padding-bottom: 5%;
   display: flex;
+  gap: 10px;
   justify-content: space-between;
 }
 
