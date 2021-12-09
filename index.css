@@ -55,13 +55,15 @@ header {
   position: absolute;
 }
 
-footer {
-  /* background-color: blue; */
-  padding-top: 5%;
-  padding-bottom: 5%;
-  display: flex;
-  gap: 10px;
-  justify-content: space-between;
+@media (min-width: 700px) {
+  footer {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin: 2%;
+  }
 }
 
 ul {
@@ -87,4 +89,8 @@ h2 {
   display: grid;
   align-items: center;
   gap: 50px;
+}
+
+hr {
+  color: #7a0625;
 }
