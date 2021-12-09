@@ -2,22 +2,17 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-header {
-  font-family: "Poppins", sans-serif;
-  text-align: center;
-  width: 100%;
-  position: absolute;
-}
-ul {
-  display: flex;
-  justify-content: start;
-  gap: 180px;
-  list-style-type: none;
-  align-items: center;
-}
-
 a {
   color: white;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+header ul li:first-child {
+  margin-right: auto;
 }
