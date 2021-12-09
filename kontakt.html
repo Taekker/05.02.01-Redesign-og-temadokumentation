@@ -7,12 +7,18 @@
     <title>Kontakt</title>
     <link rel="stylesheet" href="shared.css" />
     <link rel="stylesheet" href="kontakt.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <main>
       <section id="first_section">
         <div class="section_wrapper">
-          <h1>Kontakt os</h1>
+          <h1>KONTAKT OS</h1>
         </div>
       </section>
 
@@ -56,11 +62,43 @@
       <section id="third_section">
         <div class="section_wrapper">
           <div class="col1">
-            <h1>SKRIV TIL OS</h1>
+            <form>
+              <h3>SKRIV TIL OS</h3>
+              <form>
+                <label for=""></label>
+                <input
+                  type="text"
+                  id="fname"
+                  name="navn"
+                  placeholder="NAVN"
+                />
+
+                <label for="lname"></label>
+                <input
+                  type="tel"
+                  id="lname"
+                  name="tlf nummer"
+                  placeholder="TLF NUMMER"
+                />
+
+                <label for="lname"></label>
+                <input
+                  type="email"
+                  id="lname"
+                  name="email"
+                  placeholder="EMAIL"
+                />
+            </form>
           </div>
           <div class="col2">
-            <h3>SKRIV DIN BESKJED HER</h3>
-            <button class="button">Send</button>
+           
+            <div class="form-felt">
+              <h3>SKRIV DIN BESKDE HER</h3>
+              <label>
+                <textarea name="besked" rows="10"></textarea>
+              </label>
+          </div>
+          <button class="button">Send</button>
           </div>
         </div>
       </section>
@@ -68,3 +106,5 @@
   </body>
   <script src="login.js"></script>
 </html>
+<form name="kontakt" netlify>
+ 
