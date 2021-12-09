@@ -46,7 +46,8 @@ header {
 
 footer {
   /* background-color: blue; */
-  padding-top: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   display: flex;
   justify-content: space-between;
 }
@@ -69,7 +70,8 @@ h2 {
   justify-content: center;
 }
 .videoSection {
-  padding-top: 4%;
+  padding-top: 2%;
+  padding-bottom: 4%;
   display: grid;
   align-items: center;
   gap: 50px;
