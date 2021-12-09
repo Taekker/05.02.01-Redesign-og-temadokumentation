@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img,
+video {
+  width: 100%;
+  object-fit: cover;
+}
+
+body {
+  /* background-image: url(slide.jpg); */
+  background-color: white;
+}
+
+header {
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+ul {
+  display: flex;
+  justify-content: start;
+  gap: 70px;
+  list-style-type: none;
+}
