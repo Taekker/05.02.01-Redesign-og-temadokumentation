@@ -8,6 +8,9 @@ img {
   width: 100%;
 }
 
+body {
+  font-family: 'Poppins', sans-serif;
+}
 #first_section .section_wrapper {
   /*lave grid og splashbillede der kun fylder selve siden */
   display: grid;
