@@ -8,13 +8,19 @@ img {
 }
 
 /*
+#first_section image {
+    aspect-ratio: 16/9;
+}
+*/
+
+/*
 h1 {
     position:absolute;
     font-size: 800%;
     color: white;
     margin-left: 35%; 
     margin-top: 30%; 
-    
+
   }
 */
 
