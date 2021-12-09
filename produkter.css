@@ -106,11 +106,22 @@ h2 {
 
 .grid_item {
     border: solid 2px darkgrey;
-    
+    display: grid;   
+}
+
+.grid_item  figcaption {
+    grid-area: 1/1;
+    place-self: end start;
+    width: 100%;
+}
+
+ .grid_item img{
+    grid-area: 1/1;
+
 }
 
 figcaption {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.377);
     color: white;
     font-size: 10px;
     cursor: pointer;
