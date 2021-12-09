@@ -12,7 +12,7 @@ p {
   font-family: "Poppins", sans-serif;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 500px) {
   #first_section h1 {
     font-family: "Poppins", sans-serif;
     font-size: 42px;
@@ -34,8 +34,8 @@ p {
   #second_section .section_wrapper {
     display: flex;
     flex-direction: row;
-    background-color: rgb(190, 189, 189);
-    gap: 450px;
+    background-color: rgb(231, 231, 231);
+    gap: 520px;
     padding: 5rem;
     margin-bottom: 0rem;
   }
@@ -51,10 +51,10 @@ p {
   #third_section .section_wrapper {
     display: flex;
     flex-direction: row;
-    gap: 520px;
+    gap: 250px;
     padding: 2rem;
-    margin-bottom: 3rem;
-    background-color: rgb(190, 189, 189);
+    margin-bottom: 0rem;
+    background-color: rgb(231, 231, 231);
   }
 
   #third_section .col1 {
@@ -67,7 +67,25 @@ p {
 
   #third_section .col1 [type="text"],
   select {
-    width: 100%;
+    width: 80%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    border: 1px solid rgb(82, 82, 82);
+    box-sizing: border-box;
+  }
+
+  #third_section .col1 [type="tel"],
+  select {
+    width: 80%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    border: 1px solid rgb(82, 82, 82);
+    box-sizing: border-box;
+  }
+
+  #third_section .col1 [type="email"],
+  select {
+    width: 80%;
     padding: 12px 10px;
     margin: 8px 0;
     border: 1px solid rgb(82, 82, 82);
@@ -79,9 +97,18 @@ p {
     padding: 20px;
   }
 
-  input {
+  #third_section .col2 {
+    order: 2;
+    display: grid;
+    gap: 2rem;
+  }
+
+  .form-felt {
     width: 100%;
-    padding: 50px;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    box-sizing: border-box;
+    gap: 2rem;
   }
 }
 
@@ -89,7 +116,7 @@ p {
   background-color: #a60832;
   border: none;
   color: rgb(255, 255, 255);
-  padding: 16px 52px;
+  padding: 10px 52px;
   text-align: left;
   text-decoration: none;
   display: inline-block;
