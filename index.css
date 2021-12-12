@@ -19,6 +19,10 @@ header ul li:first-child {
   margin-right: auto;
 }
 
+.splash {
+  width: 110%;
+}
+
 body {
   /* background-image: url(slide.jpg); */
   width: 100%;
@@ -39,7 +43,7 @@ button {
   place-self: center;
   position: absolute;
   border-radius: 15px;
-  background-color: #a60832;
+  background-color: #a50c31;
   border: none;
   color: rgb(255, 255, 255);
   padding: 16px 52px;
@@ -79,9 +83,10 @@ header {
 ul {
   display: flex;
   justify-content: start;
-  gap: 180px;
+  /* gap: 180px; */
   list-style-type: none;
   align-items: center;
+  padding: 2%;
 }
 
 a {
