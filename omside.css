@@ -8,9 +8,35 @@ img {
   width: 100%;
 }
 
-body {
-  /* font-family: "Poppins", sans-serif; */
+header ul {
+  display: flex;
+  align-items: center;
+  gap: 25px;
 }
+header ul li:first-child {
+  margin-right: auto;
+}
+
+ul {
+  display: flex;
+  justify-content: start;
+  /* gap: 180px; */
+  list-style-type: none;
+  align-items: center;
+  padding: 2%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+}
+
 #first_section .section_wrapper {
   /*lave grid og splashbillede der kun fylder selve siden */
   display: grid;
