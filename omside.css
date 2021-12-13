@@ -8,9 +8,6 @@ img {
   width: 100%;
 }
 
-body {
-  /* font-family: "Poppins", sans-serif; */
-}
 #first_section .section_wrapper {
   /*lave grid og splashbillede der kun fylder selve siden */
   display: grid;
@@ -33,20 +30,9 @@ body {
   place-self: center; /*placere h1 ovenpå splashbillede, z-index betyder at h1 skal placeres ovenpå billede */
 }
 
-h1 {
-  font-size: 300%;
-  color: white;
-}
-
 h2 {
   margin-top: 3rem;
   margin-bottom: 1rem;
-  font-size: 200%;
-}
-
-p {
-  margin-bottom: 1rem;
-  line-height: 150%;
 }
 
 #third_section {
@@ -63,11 +49,6 @@ p {
     display: grid;
     grid-template-columns: 1fr 2fr;
     padding: 2rem;
-  }
-
-  h1 {
-    font-size: 500%;
-    color: white;
   }
 
   .section_wrapper .box1 {
