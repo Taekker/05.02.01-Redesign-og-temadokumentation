@@ -35,11 +35,6 @@ h2 {
   margin-bottom: 1rem;
 }
 
-p {
-  margin-bottom: 1rem;
-  line-height: 150%;
-}
-
 #third_section {
   background-color: rgb(247, 245, 245);
   padding: 2rem;
@@ -54,11 +49,6 @@ p {
     display: grid;
     grid-template-columns: 1fr 2fr;
     padding: 2rem;
-  }
-
-  h1 {
-    font-size: 500%;
-    color: white;
   }
 
   .section_wrapper .box1 {
