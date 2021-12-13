@@ -13,10 +13,16 @@ video {
 h1 {
   font-size: 3rem;
   color: white;
+  font-family: poppins;
 }
 
 h2 {
   font-size: 2rem;
+  font-family: poppins;
+}
+
+p {
+  font-family: poppins;
 }
 
 body {
