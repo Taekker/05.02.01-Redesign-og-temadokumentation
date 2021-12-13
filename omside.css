@@ -30,15 +30,9 @@ img {
   place-self: center; /*placere h1 ovenpå splashbillede, z-index betyder at h1 skal placeres ovenpå billede */
 }
 
-h1 {
-  font-size: 300%;
-  color: white;
-}
-
 h2 {
   margin-top: 3rem;
   margin-bottom: 1rem;
-  font-size: 200%;
 }
 
 p {
