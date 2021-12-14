@@ -1,168 +1,147 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 img {
-    width: 100%;
-    display: block;
+  width: 100%;
+  display: block;
 }
-
-
-h1 {
-    font-size: 800%;
-    color: white;
-    margin-top: 130px;
-    letter-spacing: 5px;
-  }
-
 
 #first_section .section_wrapper1 {
-    /*lave grid og splashbillede der kun fylder selve siden */
-    display: grid;
-    height: 100vh;
-  }
-
-.section_wrapper1 img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  /*lave grid og splashbillede der kun fylder selve siden */
+  display: grid;
+  height: 100vh;
 }
 
-.section_wrapper1 h1, .section_wrapper1 img {
-    grid-area: 1 / 1;
+.section_wrapper1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section_wrapper1 h1,
+.section_wrapper1 img {
+  grid-area: 1 / 1;
 }
 
 .section_wrapper1 h1 {
-    z-index: 1;
-    place-self: center;
-}
-
-h2 {
-    text-align: center;
-    margin-bottom: 30px;
+  z-index: 1;
+  place-self: center;
 }
 
 #second_section {
-    text-align: center;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-top: 55px;
-    margin-bottom: 38px;
+  text-align: center;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 55px;
+  margin-bottom: 38px;
 }
 
 #third_section {
-    text-align: center;
-    margin-bottom: 45px;
+  text-align: center;
+  margin-bottom: 45px;
 }
 
 .button {
-    height: 45px;
-    width: 45px;
-    background: rgb(236, 234, 234);
-    outline: none;
-    border: solid 2px darkgray;
-    border-radius: 50px;
-    overflow: hidden;
-    margin-right: 5px;
-    color: black;
-    cursor: pointer;
+  height: 45px;
+  width: 45px;
+  background: rgb(236, 234, 234);
+  outline: none;
+  border: solid 2px darkgray;
+  border-radius: 50px;
+  overflow: hidden;
+  margin-right: 5px;
+  color: black;
+  cursor: pointer;
 }
 
 .button_icon {
-    display: inline-flex;
-    align-items: center;
-    font-size: 1.6em;
+  display: inline-flex;
+  align-items: center;
+  font-size: 1.6em;
 }
 .button:hover {
-    background: white;
-    color: #A60832
+  background: white;
+  color: #a60832;
 }
 
 .button:active {
-    background: #A60832;
-    color: white;
+  background: #a60832;
+  color: white;
 }
 
 #fourth_section {
-    background-color: rgb(236, 234, 234);
+  background-color: rgb(236, 234, 234);
 }
 
 .grid_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  justify-items: center;
+  row-gap: 25px;
+  column-gap: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.grid_item {
+  border: solid 2px darkgrey;
+  display: grid;
+}
+
+.grid_item figcaption {
+  grid-area: 1/1;
+  place-self: end start;
+  width: 100%;
+}
+
+.grid_item img {
+  grid-area: 1/1;
+}
+
+figcaption {
+  background-color: rgba(0, 0, 0, 0.377);
+  color: white;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+figcaption:hover {
+  background-color: #a60832;
+}
+
+#fifth_section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.button1 {
+  background-color: #a60832;
+  border: none;
+  color: white;
+  padding: 15px 50px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1:hover {
+  background-color: #7a0625;
+}
+
+@media (max-width: 600px) {
+  .grid_container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     justify-items: center;
     row-gap: 25px;
     column-gap: 25px;
     margin-left: 20px;
     margin-right: 20px;
-}
-
-.grid_item {
-    border: solid 2px darkgrey;
-    display: grid;   
-}
-
-.grid_item  figcaption {
-    grid-area: 1/1;
-    place-self: end start;
-    width: 100%;
-}
-
- .grid_item img{
-    grid-area: 1/1;
-
-}
-
-figcaption {
-    background-color: rgba(0, 0, 0, 0.377);
-    color: white;
-    font-size: 10px;
-    cursor: pointer;
-}
-
-figcaption:hover {
-    background-color: #A60832;
-}
-
-#fifth_section {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    text-align: center;
-}
-
-.button1 {
-    background-color: #A60832;
-    border: none;
-    color: white;
-    padding: 15px 50px;
-    text-align: center;
-    display: inline-block;
-    font-size: 14px;
-    transition-duration: 0.4s;
-    cursor: pointer;
   }
-  
-  .button1:hover {
-    background-color: #7a0625;
-  }
-
-@media (max-width: 600px) {
-
-    .grid_container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        justify-items: center;
-        row-gap: 25px;
-        column-gap: 25px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }   
 }
