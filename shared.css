@@ -95,8 +95,6 @@ header {
   .logo {
     display: none;
   }
-  .splash {
-  }
 }
 @media (min-width: 785px) {
   .bm_logo {
