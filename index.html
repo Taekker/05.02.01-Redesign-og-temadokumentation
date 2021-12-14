@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
     <title>Document</title>
     <link rel="icon" href="favicon.svg" type="image/gif" sizes="30x30" />
     <link rel="stylesheet" href="shared.css" />
@@ -25,7 +26,9 @@
       <nav>
         <ul>
           <li class="my_logo">
-            <img src="logo.png" class="logo" alt="logo" />
+            <a href="index.html"
+              ><img src="logo.png" class="logo" alt="logo"
+            /></a>
           </li>
           <li>
             <a href="index.html">FORSIDE</a>
@@ -44,8 +47,10 @@
     </header>
     <main>
       <section class="firstSection">
-        <button class="button">Se vores udvalg</button>
-        <img src="Splash5.png" class="splash" alt="" />
+        <button onclick="location.href = 'produkter.html'" ; class="button">
+          Se vores udvalg
+        </button>
+        <img src="Splash3.jpg" class="splash" alt="" />
       </section>
       <section class="videoSection">
         <h2>OVERSKRIFT TIL VIDEO</h2>
