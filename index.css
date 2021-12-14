@@ -71,7 +71,7 @@ button:hover {
   position: absolute;
 } */
 
-@media (min-width: 700px) {
+/* @media (min-width: 700px) {
   footer {
     padding-top: 5%;
     padding-bottom: 5%;
@@ -80,7 +80,7 @@ button:hover {
     justify-content: space-between;
     margin: 2%;
   }
-}
+} */
 
 ul {
   display: flex;
