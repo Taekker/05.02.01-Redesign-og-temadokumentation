@@ -19,26 +19,36 @@
   </head>
   <body>
     <header>
-      <ul>
-        <li class="my_logo"><img src="logo.png" class="logo" alt="logo" /></li>
-        <li>
-          <a href="index.html">FORSIDE</a>
-        </li>
-        <li>
-          <a href="produkter.html">PRODUKTER</a>
-        </li>
-        <li>
-          <a href="omside.html">OM LEBEN</a>
-        </li>
-        <li>
-          <a href="kontakt.html">KONTAKT OS</a>
-        </li>
-      </ul>
+      <div class="burgermenu">
+        <img src="logo.png" class="bm_logo" alt="logo" />
+        <button class="toggle-btn">Menu</button>
+      </div>
+      <nav>
+        <ul>
+          <li class="my_logo">
+            <img src="logo.png" class="logo" alt="logo" />
+          </li>
+          <li>
+            <a href="index.html">FORSIDE</a>
+          </li>
+          <li>
+            <a href="produkter.html">PRODUKTER</a>
+          </li>
+          <li>
+            <a href="omside.html">OM LEBEN</a>
+          </li>
+          <li>
+            <a href="kontakt.html">KONTAKT OS</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
       <section class="firstSection">
-        <button class="button">Se vores udvalg</button>
-        <img src="Splash3.jpg" class="splash" alt="" />
+        <button onclick="location.href = 'produkter.html'" ; class="button">
+          Se vores udvalg
+        </button>
+        <img src="Splash5.png" class="splash" alt="" />
       </section>
       <section class="videoSection">
         <h2>OVERSKRIFT TIL VIDEO</h2>
@@ -80,6 +90,7 @@
         <p>Instagram</p>
       </div>
     </footer>
+    <script src="index.js"></script>
   </body>
   <script src="login.js"></script>
 </html>
