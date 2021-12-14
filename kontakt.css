@@ -120,7 +120,6 @@ body {
   margin: 10px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
-  font-family: "Poppins", sans-serif;
 }
 
 #third_section .button:hover {
