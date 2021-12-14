@@ -10,13 +10,17 @@ video {
   max-height: 100%;
 }
 
-header ul {
+/* header ul {
   display: flex;
   align-items: center;
   gap: 25px;
 }
 header ul li:first-child {
   margin-right: auto;
+} */
+
+.splash {
+  width: 110%;
 }
 
 body {
@@ -24,7 +28,9 @@ body {
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
+  /* background-color: #272322; */
   background-color: white;
+  /* padding: 2rem; */
   /* font-family: "Poppins", sans-serif; */
 }
 
@@ -35,11 +41,11 @@ body {
   height: 100vh;
 }
 
-button {
+.button {
   place-self: center;
   position: absolute;
   border-radius: 15px;
-  background-color: #a60832;
+  background-color: #a50c31;
   border: none;
   color: rgb(255, 255, 255);
   padding: 16px 52px;
@@ -59,11 +65,11 @@ button:hover {
   color: rgb(255, 255, 255);
 }
 
-header {
+/* header {
   text-align: center;
   width: 100%;
   position: absolute;
-}
+} */
 
 @media (min-width: 700px) {
   footer {
@@ -79,9 +85,9 @@ header {
 ul {
   display: flex;
   justify-content: start;
-  gap: 180px;
   list-style-type: none;
   align-items: center;
+  padding: 2%;
 }
 
 a {
@@ -89,15 +95,17 @@ a {
   text-decoration: none;
 }
 
-h2 {
+/* h2 {
   display: flex;
   justify-content: center;
-}
+} */
 .videoSection {
+  background-color: rgb(247, 245, 245);
   padding-top: 4%;
-  padding-bottom: 0%;
+  padding-bottom: 5%;
   display: grid;
   align-items: center;
+  text-align: center;
   gap: 50px;
 }
 
@@ -106,8 +114,64 @@ hr {
   /* width: 50%; */
 }
 
-@media (max-width: 700px) {
+@media (max-width: 785px) {
   hr {
     width: 50%;
   }
+  .logo {
+    display: none;
+  }
+  .splash {
+  }
+}
+@media (min-width: 785px) {
+  .bm_logo {
+    display: none;
+  }
+}
+
+.toggle-btn {
+  display: none;
+
+  /* top: 100%; */
+  padding: 10px 10px;
+  /* left: 7.5%; */
+  text-align: center;
+}
+@media (max-width: 785px) {
+  .toggle-btn {
+    background: bl;
+    border: none;
+    display: block;
+    /* min-width: 44px;
+    min-height: 44px; */
+    font-size: 0.8rem;
+    cursor: pointer;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav.shown {
+    /* border-top: 1px solid #000; */
+    /* padding-top: 1rem; */
+    display: flex;
+    justify-content: end;
+  }
+
+  nav ul {
+    display: flex;
+    flex-flow: column;
+    background-color: rgba(163, 17, 52, 0.6);
+  }
+}
+
+.burgermenu {
+  display: flex;
+  justify-content: space-between;
+}
+
+video {
+  padding: 2rem;
 }

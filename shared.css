@@ -1,10 +1,31 @@
-body {
-  font-family: "Poppins", sans-serif;
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-a {
+img,
+video {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+h1 {
+  font-size: 2.5rem;
   color: white;
-  text-decoration: none;
+  font-family: poppins;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: poppins;
+}
+
+p {
+  font-family: poppins;
+}
+
+body {
   font-family: "Poppins", sans-serif;
 }
 
@@ -15,4 +36,110 @@ header ul {
 }
 header ul li:first-child {
   margin-right: auto;
+}
+
+ul {
+  display: flex;
+  justify-content: start;
+  /* gap: 180px; */
+  list-style-type: none;
+  align-items: center;
+  padding: 2%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+}
+
+@media (min-width: 500px) {
+  h1 {
+    font-size: 4rem;
+    color: white;
+    font-family: poppins;
+  }
+}
+
+@media (min-width: 700px) {
+  footer {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin: 2%;
+  }
+
+  h1 {
+    font-size: 5rem;
+    color: white;
+    font-family: poppins;
+  }
+}
+
+.social img {
+  max-width: 5%;
+}
+
+/*Header & Burgermenu*/
+@media (max-width: 785px) {
+  hr {
+    width: 50%;
+  }
+  .logo {
+    display: none;
+  }
+}
+@media (min-width: 785px) {
+  .bm_logo {
+    display: none;
+  }
+}
+
+.toggle-btn {
+  display: none;
+
+  /* top: 100%; */
+  padding: 10px 10px;
+  /* left: 7.5%; */
+  text-align: center;
+}
+@media (max-width: 785px) {
+  .toggle-btn {
+    background: bl;
+    border: none;
+    display: block;
+    /* min-width: 44px;
+    min-height: 44px; */
+    font-size: 0.8rem;
+    cursor: pointer;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav.shown {
+    /* border-top: 1px solid #000; */
+    /* padding-top: 1rem; */
+    display: flex;
+    justify-content: end;
+  }
+
+  nav ul {
+    display: flex;
+    flex-flow: column;
+    background-color: rgba(163, 17, 52, 0.6);
+  }
+}
+
+.burgermenu {
+  display: flex;
+  justify-content: space-between;
 }

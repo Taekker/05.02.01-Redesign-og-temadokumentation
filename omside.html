@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
     <title>Om LEBEN CPH</title>
     <link rel="icon" href="favicon.svg" type="image/gif" sizes="30x30" />
     <link rel="stylesheet" href="shared.css" />
@@ -18,21 +19,29 @@
 
   <body>
     <header>
-      <ul>
-        <li><img src="logo.png" class="logo" alt="logo" /></li>
-        <li>
-          <a href="index.html">FORSIDE</a>
-        </li>
-        <li>
-          <a href="produkter.html">PRODUKTER</a>
-        </li>
-        <li>
-          <a href="omside.html">OM LEBEN</a>
-        </li>
-        <li>
-          <a href="kontakt.html">KONTAKT OS</a>
-        </li>
-      </ul>
+      <div class="burgermenu">
+        <img src="logo.png" class="bm_logo" alt="logo" />
+        <button class="toggle-btn">Menu</button>
+      </div>
+      <nav>
+        <ul>
+          <li class="my_logo">
+            <img src="logo.png" class="logo" alt="logo" />
+          </li>
+          <li>
+            <a href="index.html">FORSIDE</a>
+          </li>
+          <li>
+            <a href="produkter.html">PRODUKTER</a>
+          </li>
+          <li>
+            <a href="omside.html">OM LEBEN</a>
+          </li>
+          <li>
+            <a href="kontakt.html">KONTAKT OS</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
       <section id="first_section">
@@ -122,6 +131,40 @@
         </div>
       </section>
     </main>
+    <footer>
+      <div class="kontakt LEBEN">
+        <h4>KONTAKT LEBEN CPH</h4>
+        <hr />
+        <br />
+        <p>Amagerbrogade 201-203, 2300 København S</p>
+        <p>Mobil: 22 62 67 25 / 25 67 97 88</p>
+        <p>Mail: lebencph@gmail.com</p>
+        <p>CVR: 34 37 82 74</p>
+        <br />
+        <p>Cookie- og privatlivspolitik</p>
+      </div>
+      <div class="åbningstider">
+        <h4>ÅBNINGSTIDER</h4>
+        <hr />
+        <br />
+        <p>Mandag - Lukket</p>
+        <p>Tirsdag - 13:00-17:30</p>
+        <p>Onsdag - 13:00-17:30</p>
+        <p>Torsdag - 13:00-17:30</p>
+        <p>Fredag - 13:00-17:30</p>
+        <p>Lørdag - 13:00-17:30</p>
+        <p>Søndag - Lukket</p>
+      </div>
+      <div class="sociale medier">
+        <h4>SOCIALE MEDIER</h4>
+        <hr />
+        <br />
+        <div class="social">
+          <img src="f_logo_RGB-Black_512.png" alt="Facebook logo" />
+          <img src="glyph-logo_May2016.png" alt="Instagram logo" />
+        </div>
+      </div>
+    </footer>
   </body>
   <script src="login.js"></script>
 </html>
