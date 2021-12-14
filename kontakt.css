@@ -26,11 +26,18 @@ body {
   place-self: center;
 }
 
+#second_section {
+  background-color: rgb(247, 245, 245);
+}
+
+#third_section {
+  background-color: rgb(247, 245, 245);
+}
+
 @media (min-width: 900px) {
   #second_section .section_wrapper {
     display: flex;
     flex-direction: row;
-    background-color: rgb(247, 245, 245);
     gap: 120px;
     padding: 5rem;
     margin-bottom: 0rem;
@@ -50,7 +57,6 @@ body {
     gap: 150px;
     padding: 2rem;
     margin-bottom: 0rem;
-    background-color: rgb(247, 245, 245);
   }
 
   #third_section .col1 {
@@ -91,6 +97,7 @@ body {
   #third_section div {
     border-radius: 5px;
     padding: 20px;
+    margin: 0px 5px;
   }
 
   #third_section .col2 {
@@ -111,6 +118,7 @@ body {
 textarea {
   width: 100%;
   resize: none;
+  margin: 8px 0px;
 }
 
 #third_section .button {
@@ -122,7 +130,7 @@ textarea {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 10px 2px;
+  margin: 10px 0px;
   transition-duration: 0.4s;
   cursor: pointer;
 }
