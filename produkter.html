@@ -1,27 +1,35 @@
 <!DOCTYPE html>
-<html lang="da">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
-    <title>Produkter</title>
+    <title>Document</title>
     <link rel="icon" href="favicon.svg" type="image/gif" sizes="30x30" />
     <link rel="stylesheet" href="shared.css" />
     <link rel="stylesheet" href="produkter.css" />
+    <link rel="stylesheet" href="shared.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
   </head>
-
   <body>
     <header>
+      <div class="burgermenu">
+        <img src="logo.png" class="bm_logo" alt="logo" />
+        <button class="toggle-btn">Menu</button>
+      </div>
       <nav>
         <ul>
-          <li class="my_logo"><img src="logo.png" class="logo" alt="logo" /></li>
+          <li class="my_logo">
+            <a href="index.html"
+              ><img src="logo.png" class="logo" alt="logo"
+            /></a>
+          </li>
           <li>
             <a href="index.html">FORSIDE</a>
           </li>
@@ -251,6 +259,7 @@
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
     ></script>
+    <script src="index.js"></script>
   </body>
   <script src="login.js"></script>
 </html>
