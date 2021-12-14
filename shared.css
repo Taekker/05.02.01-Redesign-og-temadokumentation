@@ -140,11 +140,11 @@ header {
     flex-flow: column;
     background-color: rgba(163, 17, 52, 0.6);
   }
+}
 
-  .burgermenu {
-    display: flex;
-    justify-content: space-between;
-  }
+.burgermenu {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* footer */
