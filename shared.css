@@ -140,18 +140,21 @@ header {
     flex-flow: column;
     background-color: rgba(163, 17, 52, 0.6);
   }
+
+  .burgermenu {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
-.burgermenu {
-  display: flex;
-  justify-content: space-between;
-}
+/* footer */
+@media (max-width: 785px) {
+  footer {
+  text-align: center;
+  }
 
-footer {
- text-align: center;
-}
-
-footer h4{
+  footer h4{
   text-align: center;
   text-decoration: underline;
- }
+  }
+}
