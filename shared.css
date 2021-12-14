@@ -112,6 +112,7 @@ header {
   /* left: 7.5%; */
   text-align: center;
 }
+
 @media (max-width: 785px) {
   .toggle-btn {
     background: bl;
@@ -145,3 +146,12 @@ header {
   display: flex;
   justify-content: space-between;
 }
+
+footer {
+ text-align: center;
+}
+
+footer h4{
+  text-align: center;
+  text-decoration: underline;
+ }

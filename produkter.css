@@ -167,7 +167,7 @@ figcaption:hover {
   background-color: #7a0625;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 785px) {
   .grid_container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
