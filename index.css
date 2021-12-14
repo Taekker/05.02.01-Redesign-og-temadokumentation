@@ -10,14 +10,14 @@ video {
   max-height: 100%;
 }
 
-header ul {
+/* header ul {
   display: flex;
   align-items: center;
   gap: 25px;
 }
 header ul li:first-child {
   margin-right: auto;
-}
+} */
 
 .splash {
   width: 110%;
@@ -29,6 +29,7 @@ body {
   height: 100%;
   background-repeat: no-repeat;
   background-color: #272322;
+  /* padding: 2rem; */
   /* font-family: "Poppins", sans-serif; */
 }
 
@@ -63,11 +64,11 @@ button:hover {
   color: rgb(255, 255, 255);
 }
 
-header {
+/* header {
   text-align: center;
   width: 100%;
   position: absolute;
-}
+} */
 
 @media (min-width: 700px) {
   footer {
@@ -93,10 +94,10 @@ a {
   text-decoration: none;
 }
 
-h2 {
+/* h2 {
   display: flex;
   justify-content: center;
-}
+} */
 .videoSection {
   padding-top: 4%;
   padding-bottom: 0%;
@@ -166,4 +167,8 @@ hr {
 .burgermenu {
   display: flex;
   justify-content: space-between;
+}
+
+video {
+  padding: 2rem;
 }

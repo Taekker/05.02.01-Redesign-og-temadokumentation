@@ -27,3 +27,8 @@ function toggleMenu() {
 
 /* Tilføj et klik-event til btn, der sætter toggleMenu-funktionen i gang */
 btn.addEventListener("click", toggleMenu);
+
+/*LOGO LINK*/
+{
+  /* <button onclick="location.href = 'www.yoursite.com';" id="myButton" class="float-left submit-button" >Home</button> */
+}
