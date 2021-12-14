@@ -82,3 +82,7 @@ header {
     font-family: poppins;
   }
 }
+
+.social img {
+  max-width: 5%;
+}
