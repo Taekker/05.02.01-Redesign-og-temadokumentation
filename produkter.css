@@ -6,6 +6,10 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-color: white;
 }
 
 img {
@@ -13,6 +17,20 @@ img {
     display: block;
 }
 
+header {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+  }
+
+header ul {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+  header ul li:first-child {
+    margin-right: auto;
+  }
 
 h1 {
     font-size: 800%;
@@ -81,7 +99,7 @@ h2 {
 }
 .button:hover {
     background: white;
-    color: #A60832
+    color: #A60832;
 }
 
 .button:active {
