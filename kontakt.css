@@ -60,10 +60,12 @@ body {
 
   #third_section .col1 {
     order: 1;
+    margin-top: -100px;
   }
 
   #third_section .col2 {
     order: 2;
+    margin-top: -100px;
   }
 
   #third_section .col1 [type="text"],
@@ -106,7 +108,7 @@ body {
   }
 
   #third_section .form-felt {
-    width: 100%;
+    width: 119%;
     padding: 0px 0px;
     margin: 0px 0px;
     box-sizing: border-box;

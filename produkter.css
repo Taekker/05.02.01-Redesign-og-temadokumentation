@@ -70,7 +70,7 @@ h2 {
 .button {
   height: 45px;
   width: 45px;
-  background: rgb(236, 234, 234);
+  background: rgb(247, 245, 245);
   outline: none;
   border: solid 2px darkgray;
   border-radius: 50px;
@@ -99,7 +99,8 @@ h2 {
 }
 
 #fourth_section {
-  background-color: rgb(236, 234, 234);
+  background-color: rgb(247, 245, 245);
+  padding: 3rem;
 }
 
 .grid_container {
@@ -109,8 +110,6 @@ h2 {
   justify-items: center;
   row-gap: 25px;
   column-gap: 25px;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
 .grid_item {
@@ -139,9 +138,13 @@ figcaption:hover {
   background-color: #a6083285;
 }
 
+figcaption p {
+  margin-left: 5px;
+}
+
 #fifth_section {
   margin-top: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-align: center;
 }
 

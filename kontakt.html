@@ -21,7 +21,9 @@
     <header>
       <div class="burgermenu">
         <img src="logo.png" class="bm_logo" alt="logo" />
-        <button class="toggle-btn"><ion-icon name="menu-outline"></ion-icon></button>
+        <button class="toggle-btn">
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
       </div>
       <nav>
         <ul>
@@ -96,51 +98,45 @@
           <div class="col1">
             <form>
               <h2>Skriv til os</h2>
-              <form>
-                <label for=""></label>
-                <input
-                  type="text"
-                  id="fname"
-                  name="navn"
-                  placeholder="NAVN"
-                />
-                
-                <label for="lname"></label>
-                <input
-                  type="tel"
-                  id="lname"
-                  name="tlf nummer"
-                  placeholder="TLF NUMMER"
-                />
 
-                <label for="lname"></label>
-                <input
-                  type="email"
-                  id="lname"
-                  name="email"
-                  placeholder="EMAIL"
-                />
+              <label for="name"></label>
+              <input type="text" id="name" name="navn" placeholder="NAVN" />
+
+              <label for="tel"></label>
+              <input
+                type="tel"
+                id="tel"
+                name="tlf nummer"
+                placeholder="TLF NUMMER"
+              />
+
+              <label for="email"></label>
+              <input type="email" id="email" name="email" placeholder="EMAIL" />
             </form>
             <br />
           </div>
           <div class="col2">
-            <form action="tak.html" name="kontakt" netlify>           
-            <div class="form-felt">
-              <h2>Skriv din besked her</h2>
-              <label>
-                <textarea name="besked" rows="10"></textarea>
-              </label>
+            <form action="tak.html" name="kontakt" netlify>
+              <div class="form-felt">
+                <h2>Skriv din besked her...</h2>
+                <label>
+                  <textarea name="besked" rows="10"></textarea>
+                </label>
+              </div>
+              <button class="button">Send</button>
+            </form>
           </div>
-          <button class="button">Send</button>
-          </div>
-        </form>
         </div>
       </section>
     </main>
     <footer>
       <div class="kontakt LEBEN">
         <br />
-        <u><h4>KONTAKT LEBEN CPH</h4></u>
+
+        <h4>KONTAKT LEBEN CPH</h4>
+
+        <u>KONTAKT LEBEN CPH</u>
+
         <br />
         <p>Amagerbrogade 201-203, 2300 København S</p>
         <p>Mobil: 22 62 67 25 / 25 67 97 88</p>
@@ -151,7 +147,11 @@
       </div>
       <div class="åbningstider">
         <br />
-        <u><h4>ÅBNINGSTIDER</h4></u>
+
+        <h4>ÅBNINGSTIDER</h4>
+
+        <u>ÅBNINGSTIDER</u>
+
         <br />
         <p>Mandag - Lukket</p>
         <p>Tirsdag - 13:00-17:30</p>
@@ -163,7 +163,11 @@
       </div>
       <div class="sociale medier">
         <br />
-        <u><h4>SOCIALE MEDIER</h4></u>
+
+        <h4>SOCIALE MEDIER</h4>
+
+        <u>SOCIALE MEDIER</u>
+
         <br />
         <p>Facebook</p>
         <p>Instagram</p>
@@ -175,7 +179,6 @@
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
     ></script>
     <script src="index.js"></script>
+    <script src="login.js"></script>
   </body>
-  <script src="login.js"></script>
 </html>
- 
