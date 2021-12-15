@@ -59,10 +59,6 @@ header {
   position: absolute;
 }
 
-footer u{
-  
-}
-
 @media (min-width: 785px) {
   header {
     background-color: rgba(163, 17, 52, 0.3);
@@ -94,7 +90,9 @@ footer u{
     display: flex;
     gap: 10px;
     justify-content: space-between;
-    margin: 2%;
+    margin-left: 10%;
+    margin-right: 15%;
+    text-align: center;
   }
 
   h1 {
