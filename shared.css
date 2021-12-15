@@ -124,13 +124,21 @@ header {
 }
 @media (max-width: 783px) {
   .toggle-btn {
-    background: bl;
+    background: white;
     border: none;
-    display: block;
     /* min-width: 44px;
     min-height: 44px; */
     font-size: 0.8rem;
     cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    font-size:  2em;
+    color: #a60832;
+  }
+
+  .toggle-btn:hover {
+    color: white;
+    background: #a60832;
   }
 
   nav {
