@@ -143,7 +143,6 @@ hr {
 }
 @media (max-width: 785px) {
   .toggle-btn {
-    background: bl;
     border: none;
     display: block;
     /* min-width: 44px;
