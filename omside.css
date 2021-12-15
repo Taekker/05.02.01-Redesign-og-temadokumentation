@@ -4,10 +4,6 @@
   margin: 0;
 }
 
-img {
-  width: 100%;
-}
-
 #first_section .section_wrapper {
   /*lave grid og splashbillede der kun fylder selve siden */
   display: grid;
