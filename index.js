@@ -18,10 +18,10 @@ function toggleMenu() {
   // 2. Spørg om menu i if-sætningen => if (menu)
   if (menuShown) {
     // hvis nav har klassen "shown", sæt da btn.textContent til "Luk"
-    btn.textContent = "luk";
+    btn.innerHTML = '<ion-icon name="close-outline"></ion-icon>';
   } else {
     // hvis IKKE nav har klassen "shown", sæt da btn.textContent til "Menu"
-    btn.textContent = "Menu";
+    btn.innerHTML = '<ion-icon name="menu-outline"></ion-icon>';
   }
 }
 
