@@ -39,8 +39,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 120px;
-    padding: 5rem;
-    margin-bottom: 0rem;
+    padding: 8rem;
   }
 
   #second_section .col1 {
@@ -55,7 +54,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 150px;
-    padding: 2rem;
+    padding: 6rem;
     margin-bottom: 0rem;
   }
 
@@ -141,7 +140,6 @@ textarea {
 }
 
 @media (max-width: 785px) {
-  
   #second_section {
     margin-left: 20px;
     margin-right: 20px;
