@@ -109,6 +109,11 @@ a {
   gap: 50px;
 }
 
+.videoSection h2 {
+  margin-top: 5px;
+  margin-bottom: -40px;
+}
+
 hr {
   color: #7a0625;
   /* width: 50%; */
@@ -120,8 +125,6 @@ hr {
   }
   .logo {
     display: none;
-  }
-  .splash {
   }
 }
 @media (min-width: 785px) {

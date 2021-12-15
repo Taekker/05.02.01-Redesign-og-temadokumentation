@@ -11,7 +11,7 @@ video {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   color: white;
   font-family: poppins;
   letter-spacing: 5px;
@@ -59,7 +59,7 @@ header {
   position: absolute;
 }
 
-@media (min-width: 783px) {
+@media (min-width: 785px) {
   header {
     background-color: rgba(163, 17, 52, 0.3);
   }
@@ -71,12 +71,17 @@ header {
 
 @media (min-width: 500px) {
   h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: white;
     font-family: poppins;
   }
 }
-
+@media (max-width: 785px) {
+  footer {
+    text-align: center;
+    justify-content: center;
+  }
+}
 @media (min-width: 700px) {
   footer {
     padding-top: 5%;
@@ -84,7 +89,9 @@ header {
     display: flex;
     gap: 10px;
     justify-content: space-between;
-    margin: 2%;
+    margin-left: 10%;
+    margin-right: 15%;
+    text-align: center;
   }
 
   h1 {
@@ -100,7 +107,7 @@ header {
 }
 
 /*Header & Burgermenu*/
-@media (max-width: 783px) {
+@media (max-width: 785px) {
   hr {
     width: 50%;
   }
@@ -108,7 +115,7 @@ header {
     display: none;
   }
 }
-@media (min-width: 783px) {
+@media (min-width: 785px) {
   .bm_logo {
     display: none;
   }
@@ -122,7 +129,7 @@ header {
   /* left: 7.5%; */
   text-align: center;
 }
-@media (max-width: 783px) {
+@media (max-width: 785px) {
   .toggle-btn {
     background: white;
     border: none;
@@ -132,7 +139,7 @@ header {
     cursor: pointer;
     display: inline-flex;
     align-items: center;
-    font-size:  2em;
+    font-size: 2rem;
     color: #a60832;
   }
 
