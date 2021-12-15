@@ -1,11 +1,16 @@
 * {
   padding: 0;
-  margin: 0;
   box-sizing: border-box;
+  margin: 0;
 }
+
 
 body {
   font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-color: white;
 }
 
 img {
@@ -13,11 +18,19 @@ img {
   display: block;
 }
 
-h1 {
-  font-size: 800%;
-  color: white;
-  margin-top: 130px;
-  letter-spacing: 5px;
+header {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+header ul li:first-child {
+  margin-right: auto;
 }
 
 #first_section .section_wrapper1 {
@@ -81,6 +94,9 @@ h2 {
 .button:hover {
   background: white;
   color: #a60832;
+
+  background: white;
+  color: #a60832;
 }
 
 .button:active {
@@ -126,7 +142,7 @@ figcaption {
 }
 
 figcaption:hover {
-  background-color: #a60832;
+  background-color: #a6083285;
 }
 
 #fifth_section {
@@ -151,7 +167,7 @@ figcaption:hover {
   background-color: #7a0625;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 785px) {
   .grid_container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

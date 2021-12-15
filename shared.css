@@ -11,13 +11,14 @@ video {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 4rem;
   color: white;
   font-family: poppins;
+  letter-spacing: 5px;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: poppins;
 }
 
@@ -77,9 +78,10 @@ header {
   }
 
   h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     color: white;
     font-family: poppins;
+    letter-spacing: 5px;
   }
 }
 
@@ -110,6 +112,7 @@ header {
   /* left: 7.5%; */
   text-align: center;
 }
+
 @media (max-width: 785px) {
   .toggle-btn {
     background: bl;
@@ -142,4 +145,16 @@ header {
 .burgermenu {
   display: flex;
   justify-content: space-between;
+}
+
+/* footer */
+@media (max-width: 785px) {
+  footer {
+  text-align: center;
+  }
+
+  footer h4{
+  text-align: center;
+  text-decoration: underline;
+  }
 }
